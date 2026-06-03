@@ -1,4 +1,4 @@
-let num = 21;
+let num = 7;
 
 if(num % 15 === 0){
     console.log("3と5の倍数です。");
