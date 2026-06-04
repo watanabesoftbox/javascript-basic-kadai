@@ -1,9 +1,3 @@
 const date = new Date();
 
-const formated = new Intl.DateTimeFormat('ja-JP', {
-  year: 'numeric',
-  month: 'numeric',
-  day: 'numeric'
-}).format(date);
-
-document.write(formated);
+console.log(date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日');
