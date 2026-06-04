@@ -1,4 +1,4 @@
 const square = (x) => {
-  console.log(x * x);
+  return (x * x);
 }
-square(10);
+console.log(square(9));
